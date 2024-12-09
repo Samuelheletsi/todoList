@@ -1,0 +1,67 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(211, 211, 157);
+}
+
+.creat-todo{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    padding: 10px;
+    box-shadow: 0 0 3px black;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 7px;
+}
+.text{
+    font-size: 20px;
+}
+button{
+    width: 60px;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 0 1px blue;
+    border: none;
+    border-radius: 7px;
+}
+#delete{
+   background-color: red;
+}
+input[type="text"]{
+    width: 250px;
+    border: 1px solid green;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.output{
+    background-color: white;
+    padding: 5px;
+    border-radius: 7px;
+  
+}
+.output li{
+    list-style: none;padding: 5px;
+    padding: 5px;
+    margin: 7px 0;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid ;
+}
+
+li p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.slash{
+    text-decoration: line-through;
+}
